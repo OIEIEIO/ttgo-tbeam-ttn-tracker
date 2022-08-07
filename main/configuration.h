@@ -32,8 +32,8 @@ void ttn_register(void (*callback)(uint8_t message));
 // Version
 // -----------------------------------------------------------------------------
 
-#define APP_NAME                "TTN MAP-TRACK"
-#define APP_VERSION             "1.2.2"
+#define APP_NAME                "Testing MAP-TRACK"
+#define APP_VERSION             "1.0.0"
 
 // -----------------------------------------------------------------------------
 // Configuration
