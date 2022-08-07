@@ -120,7 +120,7 @@ void ttn_register(void (*callback)(uint8_t message));
 // -----------------------------------------------------------------------------
 
 #define GPS_SERIAL_NUM  1
-#define GPS_BAUDRATE    9600
+#define GPS_BAUDRATE    115200
 #define USE_GPS         1
 
 #if defined(T_BEAM_V07)
@@ -129,6 +129,7 @@ void ttn_register(void (*callback)(uint8_t message));
 #elif defined(T_BEAM_V10)
 #define GPS_RX_PIN      34
 #define GPS_TX_PIN      12
+#define GPS_INT 37  // 30ns accurate timepulse from Neo-6M pin 3
 #endif
 
 // -----------------------------------------------------------------------------
